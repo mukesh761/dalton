@@ -6,6 +6,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 const GoogleLogin=()=>{
+  const backend = import.meta.env.VITE_BACKEND;
   const {user,setuser,islogin,setislogin}=useContext(userContext)
   const navigate=useNavigate()
      const responseGoogle=async(authResult)=>{
@@ -14,7 +15,7 @@ const GoogleLogin=()=>{
       if(authResult.code){
         const code=authResult.code;
         console.log(code)
-        const result= await axios.post(`http://localhost:3000/api/user/auth/google`,{code},{withCredentials:true} )
+        const result= await axios.post(`${backend}/api/user/auth/google`,{code},{withCredentials:true} )
         console.log(result.data);
          localStorage.setItem('user',JSON.stringify(result.data.user))
       localStorage.setItem(result.data.user && 'islogin',true)
