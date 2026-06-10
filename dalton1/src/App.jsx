@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import HomePage from "./pages/HomePage.jsx";
-import ProgramsPage from "./pages/ProgramsPage.jsx";
-import SubjectsPage from "./pages/SubjectsPage.jsx";
-import ResultsPage from "./pages/ResultsPage.jsx";
-import AboutPage from "./pages/AboutPage.jsx";
-import ResourcesPage from "./pages/ResourcesPage.jsx";
+import HomePage from "./Pages/HomePage.jsx";
+import ProgramsPage from "./Pages/ProgramsPage.jsx";
+import SubjectsPage from "./Pages/SubjectsPage.jsx";
+import ResultsPage from "./Pages/ResultsPage.jsx";
+import AboutPage from "./Pages/AboutPage.jsx";
+import ResourcesPage from "./Pages/ResourcesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import LoginPage from './Pages/LoginPage.jsx';
 import SignupPage from './Pages/SignupPage.jsx';
