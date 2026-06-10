@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import HomePage from "./pages/HomePage";
-import ProgramsPage from "./pages/ProgramsPage";
-import SubjectsPage from "./pages/SubjectsPage";
-import ResultsPage from "./pages/ResultsPage";
-import AboutPage from "./pages/AboutPage";
-import ResourcesPage from "./pages/ResourcesPage";
-import ContactPage from "./pages/ContactPage";
-import LoginPage from './Pages/LoginPage';
-import SignupPage from './Pages/SignupPage';
+import HomePage from "./pages/HomePage.jsx";
+import ProgramsPage from "./pages/ProgramsPage.jsx";
+import SubjectsPage from "./pages/SubjectsPage.jsx";
+import ResultsPage from "./pages/ResultsPage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import ResourcesPage from "./pages/ResourcesPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
+import LoginPage from './Pages/LoginPage.jsx';
+import SignupPage from './Pages/SignupPage.jsx';
 import { useContext, useEffect } from "react";
 import { userContext } from "./context/User.context";
 
