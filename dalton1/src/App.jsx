@@ -6,7 +6,7 @@ import SubjectsPage from "./Pages/SubjectsPage.jsx";
 import ResultsPage from "./Pages/ResultsPage.jsx";
 import AboutPage from "./Pages/AboutPage.jsx";
 import ResourcesPage from "./Pages/ResourcesPage.jsx";
-import ContactPage from "./pages/ContactPage.jsx";
+import ContactPage from "./Pages/ContactPage.jsx";
 import LoginPage from './Pages/LoginPage.jsx';
 import SignupPage from './Pages/SignupPage.jsx';
 import { useContext, useEffect } from "react";
